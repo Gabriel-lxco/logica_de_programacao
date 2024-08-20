@@ -6,7 +6,7 @@ nota3 = parseFloat(prompt("Digite sua terceita nota: "))
 
 media = (nota1+nota2+nota3) / 3
 
-if (((nota1 || nota2 || nota3) >= 0 && (nota1 || nota2 || nota3) <= 10)) {
+if ((((nota1 || nota2 || nota3) >= 0) && ((nota1 || nota2 || nota3) <= 10))) {
     if (media >= 7) {
         document.write(`Você foi aprovado, e sua média foi de: ${media}`)
     } else {
