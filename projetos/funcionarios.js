@@ -41,10 +41,11 @@ while (i != 15) {
             
         }
 
+        if (genero = "masculino") {
+            document.write("Aaaaaaaaaaaaaaaaa")
+        }
         if (genero = "feminino") {
-            
-        } else {
-            
+            document.write("bbbbbbbbbbbbbbbbb")
         }
 
         pecasPmes = pecasPmes + pecasFab
