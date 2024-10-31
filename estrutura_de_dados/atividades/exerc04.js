@@ -1,12 +1,16 @@
-let v1 = [], v2 = []
-v3 = []
+let vetor1 = [], vetor2 = []
+vetor3 = []
+let j = 0
 
 for(let i = 0; i < 5; i++){
-    v1[i] = Number(prompt("DIgite um número para o primeiro vetor:"))
-    v2[i] = Number(prompt("Digite um número para o segundo vetor:"))
-    v3[i] = v1[i] + "," + v2[i]
+    vetor1[i] = Math.floor(Math.random() * 10)
+    vetor2[i] = Math.floor(Math.random() * 10)
+    vetor3[j] = vetor1[i]
+    j++
+    vetor3[j] = vetor2[i]
+    j++
 }
 
-document.write(`Vetor 1: ${v1}<br>`)
-document.write(`Vetor 2: ${v2}<br>`)
-document.write(`Vetor 3: ${v3}`)
+document.write(`Vetor 1: ${vetor1}<br>`)
+document.write(`Vetor 2: ${vetor2}<br>`)
+document.write(`Vetor 3: ${vetor3}`)
